@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: Overpass, sans-serif;
+  font-size: 15px;
+  color:  hsl(217, 12%, 63%);
+}
+
+.rating-state {
+  background-color: hsl(213, 19%, 18%);
+  width: 300px;
+  height: 300px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  border-radius: 20px;
+}
+
+.wrapper {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.rating-question {
+  color: hsl(0, 0%, 100%);
+}
+
+.star-block {
+  background-color: hsl(216, 12%, 54%);
+  padding: 7px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.start-text {
+
+}
+
+.select {
+  text-align: center;
+  margin: 0 0 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-button {
+  border: none;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(217, 12%, 63%);
+  padding: 0;
+  border-radius: 50%;
+  margin: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.confirm-button {
+  width: 260px;
+  height: 30px;
+  padding: 0;
+  border-radius: 15px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+}
