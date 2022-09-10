@@ -8,13 +8,14 @@ body {
   background-color: hsl(216, 12%, 8%);
   font-family: Overpass, sans-serif;
   font-size: 15px;
-  color:  hsl(217, 12%, 63%);
+  color: hsl(217, 12%, 63%);
 }
 
 .rating-state {
   background-color: hsl(213, 19%, 18%);
   width: 300px;
   height: 300px;
+  border-radius: 20px;
 
   position: absolute;
   top: 0;
@@ -22,17 +23,11 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
-
-  border-radius: 20px;
 }
 
 .wrapper {
   width: 260px;
   margin: 0 auto;
-}
-
-.rating-question {
-  color: hsl(0, 0%, 100%);
 }
 
 .star-block {
@@ -43,8 +38,13 @@ body {
   margin-top: 20px;
 }
 
-.start-text {
+.rating-question {
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0;
+}
 
+.start-text {
+  margin: 15px 0;
 }
 
 .select {
@@ -73,5 +73,24 @@ body {
   border-radius: 15px;
   background-color: hsl(25, 97%, 53%);
   border: none;
+  color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+.confirm-button__active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.select-button__hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.select-button__active {
+  background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
 }
