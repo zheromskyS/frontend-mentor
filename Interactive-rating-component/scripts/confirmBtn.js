@@ -1,4 +1,5 @@
 const confirmBtn = document.querySelector('.confirm-button');
+const ratingState = document.querySelector('.rating-state');
 
 export const confirmActiveBtn = () => {
     confirmBtn.onmouseover = function () {
@@ -10,3 +11,8 @@ export const confirmActiveBtn = () => {
     };
 };
 
+export const deleteRatingState = () => {
+    confirmBtn.addEventListener('click', () => {
+        ratingState.classList.add("rating-state__delete");
+    });
+};

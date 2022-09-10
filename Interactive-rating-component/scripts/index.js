@@ -1,8 +1,9 @@
 import {selectActiveBtn, selectHoverBtn} from "./selectBtn.js";
-import {confirmActiveBtn} from "./confirmBtn.js";
+import {confirmActiveBtn, deleteRatingState} from "./confirmBtn.js";
 
 window.onload =() => {
     selectActiveBtn();
     selectHoverBtn();
     confirmActiveBtn();
+    deleteRatingState()
 }

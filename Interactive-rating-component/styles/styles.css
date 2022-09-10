@@ -11,7 +11,8 @@ body {
   color: hsl(217, 12%, 63%);
 }
 
-.rating-state {
+.rating-state,
+.rating-state-end {
   background-color: hsl(213, 19%, 18%);
   width: 300px;
   height: 300px;
@@ -99,4 +100,9 @@ body {
   height: 35px;
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
+}
+
+.rating-state__delete {
+  position: absolute;
+  top: -999%;
 }
