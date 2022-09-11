@@ -9,6 +9,7 @@ body {
   font-family: Overpass, sans-serif;
   font-size: 15px;
   color: hsl(217, 12%, 63%);
+  font-weight: 400;
 }
 
 .rating-state,
@@ -39,13 +40,24 @@ body {
   margin-top: 20px;
 }
 
+.img-block {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
 .rating-question {
   color: hsl(0, 0%, 100%);
   margin: 20px 0;
+  font-weight: 700;
 }
 
 .start-text {
   margin: 15px 0;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .select {
@@ -77,10 +89,6 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-
-
-
-
 .confirm-button__active {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
@@ -110,4 +118,22 @@ body {
 .rating-state-end__delete {
   position: absolute;
   top: -999%;
+}
+
+.rating-gratitude {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.show-rating {
+  margin: 20px auto;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  width: 175px;
+  border-radius: 10px;
+  padding: 2px;
+  font-weight: 400;
 }
