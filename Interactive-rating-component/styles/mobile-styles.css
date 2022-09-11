@@ -1,0 +1,63 @@
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+
+    .rating-state,
+    .rating-state-end {
+        width: 250px;
+        height: 250px;
+    }
+
+    .wrapper {
+        width: 215px;
+    }
+
+    .star-block {
+        padding: 6px;
+        width: 16px;
+        margin-top: 16px;
+    }
+
+    .img-block {
+        margin-top: 16px;
+    }
+
+    .rating-question {
+        margin: 14px 0;
+    }
+
+    .start-text {
+        margin: 12px 0;
+        font-size: 12px;
+    }
+
+    .select {
+        margin: 0 0 12px;
+    }
+
+    .select-button {
+        width: 29px;
+        height: 29px;
+    }
+
+    .confirm-button {
+        width: 215px;
+        height: 25px;
+    }
+
+    .select-button__active {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rating-gratitude {
+        margin: 14px 0;
+    }
+
+    .show-rating {
+        margin: 16px auto;
+        width: 145px;
+        padding: 0;
+    }
+}
