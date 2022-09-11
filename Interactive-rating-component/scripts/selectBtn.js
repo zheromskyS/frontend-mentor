@@ -3,6 +3,8 @@ export const selectButtonActive = document.querySelector(
   ".select-button__active"
 );
 
+const showRatingText = document.querySelector(".show-rating");
+
 export const selectHoverBtn = () => {
   selectBtns.forEach((element) => {
     element.onmouseover = function () {
@@ -22,6 +24,7 @@ export const selectActiveBtn = () => {
         element.classList.remove("select-button__active");
       });
       element.classList.add("select-button__active");
+      showRatingText.innerHTML = `You selected ${element.value} out of 5`; // show rating in the second block
     });
   });
 };

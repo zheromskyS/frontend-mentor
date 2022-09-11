@@ -17,15 +17,14 @@ export const confirmActiveBtn = () => {
 export const deleteRatingState = () => {
   if (
     Array.from(selectBtns).some((element) =>
-      element.classList.contains('select-button__active')
+      element.classList.contains("select-button__active")
     )
   ) {
     ratingState.classList.add("rating-state__delete");
-    ratingStateEnd.classList.remove('rating-state-end__delete');
+    ratingStateEnd.classList.remove("rating-state-end__delete");
   }
 };
 
 export const ratingCheck = () => {
   confirmBtn.addEventListener("click", deleteRatingState);
 };
-
