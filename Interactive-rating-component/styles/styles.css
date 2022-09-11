@@ -10,6 +10,7 @@ body {
   font-size: 15px;
   color: hsl(217, 12%, 63%);
   font-weight: 400;
+  width: 100%;
 }
 
 .rating-state,

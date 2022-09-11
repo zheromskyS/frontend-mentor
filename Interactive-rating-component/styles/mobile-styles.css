@@ -1,0 +1,136 @@
+@media screen and (max-width: 375px) {
+    body {
+        background-color: hsl(216, 12%, 8%);
+        font-family: Overpass, sans-serif;
+        font-size: 12px;
+        color: hsl(217, 12%, 63%);
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .rating-state,
+    .rating-state-end {
+        background-color: hsl(213, 19%, 18%);
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .wrapper {
+        width: 215px;
+        margin: 0 auto;
+    }
+
+    .star-block {
+        background-color: hsl(216, 12%, 54%);
+        padding: 6px;
+        width: 16px;
+        border-radius: 50%;
+        margin-top: 16px;
+    }
+
+    .img-block {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+    }
+
+    .rating-question {
+        color: hsl(0, 0%, 100%);
+        margin: 14px 0;
+        font-weight: 700;
+    }
+
+    .start-text {
+        margin: 12px 0;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .select {
+        text-align: center;
+        margin: 0 0 12px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .select-button {
+        border: none;
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        padding: 0;
+        border-radius: 50%;
+        margin: 0;
+        width: 29px;
+        height: 29px;
+    }
+
+    .confirm-button {
+        width: 215px;
+        height: 25px;
+        padding: 0;
+        border-radius: 12px;
+        background-color: hsl(25, 97%, 53%);
+        border: none;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .confirm-button__active {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(25, 97%, 53%);
+    }
+
+    .select-button__hover {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(25, 97%, 53%);
+    }
+
+    .select-button__active {
+        border: none;
+        padding: 0;
+        border-radius: 50%;
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .rating-state__delete {
+        position: absolute;
+        top: -999%;
+    }
+
+    .rating-state-end__delete {
+        position: absolute;
+        top: -999%;
+    }
+
+    .rating-gratitude {
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        margin: 14px 0;
+        font-weight: 700;
+    }
+
+    .show-rating {
+        margin: 16px auto;
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(25, 97%, 53%);
+        text-align: center;
+        width: 145px;
+        border-radius: 10px;
+        padding: 1px;
+        font-weight: 400;
+    }
+}
