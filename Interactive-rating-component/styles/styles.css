@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: Overpass, sans-serif;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  width: 100%;
+}
+
+.rating-state,
+.rating-state-end {
+  background-color: hsl(213, 19%, 18%);
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.wrapper {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.star-block {
+  background-color: hsl(216, 12%, 54%);
+  padding: 7px;
+  width: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.img-block {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.rating-question {
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.start-text {
+  margin: 15px 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.select {
+  text-align: center;
+  margin: 0 0 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-button {
+  border: none;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(217, 12%, 63%);
+  padding: 0;
+  border-radius: 50%;
+  margin: 0;
+  width: 35px;
+  height: 35px;
+}
+
+.confirm-button {
+  width: 260px;
+  height: 30px;
+  padding: 0;
+  border-radius: 15px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.confirm-button__active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.select-button__hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.select-button__active {
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  margin: 0;
+  width: 35px;
+  height: 35px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.rating-state__delete {
+  position: absolute;
+  top: -999%;
+}
+
+.rating-state-end__delete {
+  position: absolute;
+  top: -999%;
+}
+
+.rating-gratitude {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.show-rating {
+  margin: 20px auto;
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  width: 175px;
+  border-radius: 10px;
+  padding: 2px;
+  font-weight: 400;
+}
