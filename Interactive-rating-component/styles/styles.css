@@ -106,3 +106,8 @@ body {
   position: absolute;
   top: -999%;
 }
+
+.rating-state-end__delete {
+  position: absolute;
+  top: -999%;
+}

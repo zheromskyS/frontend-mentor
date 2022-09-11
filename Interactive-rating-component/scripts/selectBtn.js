@@ -1,4 +1,7 @@
 export const selectBtns = document.querySelectorAll(".select-button");
+export const selectButtonActive = document.querySelector(
+  ".select-button__active"
+);
 
 export const selectHoverBtn = () => {
   selectBtns.forEach((element) => {
@@ -11,7 +14,6 @@ export const selectHoverBtn = () => {
     };
   });
 };
-
 
 export const selectActiveBtn = () => {
   selectBtns.forEach((element) => {
